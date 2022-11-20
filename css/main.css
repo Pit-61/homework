@@ -1,0 +1,102 @@
+/*  Bitte Name eintragen: Gabriela Lucy Linnartz */
+
+/* Vorgaben 
+Hintergrundfarbe von body (Grauton): rgb(235,231,232)
+Hintergrundfarbe des Artikels: rgba(236,231,231,0.9);
+Farbe der Überschriften: weiß: rgb(255,255,255) und grün: rgb(140,170,0)
+Links: grün: rgb(140,170,0)
+Höhe des Header: 400px
+Gesamtbreite des Layouts: 980px
+*/
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 80%; 
+    line-height: 130%;
+    background: rgb(235,231,232) url(../images/bg-image.jpg) center top no-repeat;
+}
+
+header{
+    background: url(../images/bg-welle.png);
+    height: 400px; 
+    width: 980px;
+    margin: 0 auto 25px auto;
+    border-radius: 0 0 10px 10px; 
+    box-shadow: 1px 3px 7px Black; 
+    
+}
+
+wrap{
+    width: 980px;
+    margin: 0 auto 25px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(255,255,255);
+    font-weight: normal;
+    padding: 15px 0 0 0;
+    
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0 10px 0 10px;
+    
+}
+
+a {
+    color: rgb(140,170,0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(140,170,0);
+}
+
+a:hover { 
+    font-weight: bold;
+}
+
+a:active {
+    color: yellow;
+}
+
+main{
+    background-color: rgba(236,231,231,0.9); 
+    width: 980px;
+    margin: 25px auto 25px auto; 
+    box-shadow: 3px 3px 5px black;
+   
+}
+
+article{
+    padding: 30px 30px 0 30px;
+}
+
+aside{
+    text-align: center;
+    padding: 0 30px 30px 20px;
+}
+
+img{
+    border-radius: 0 0 0 10px;
+}
+
+h2,h3{
+    color: rgb(140,170,0)
+}
+
+footer{
+    text-align: center;
+    margin: 40px auto 50px auto;
+}
